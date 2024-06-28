@@ -118,6 +118,45 @@ public class If_Switch {
     // Conversor de unidades: Implementa un conversor que convierta entre diferentes unidades de medida
     // (p.ej., metros a kilómetros, gramos a kilogramos).
 
+//        System.out.println("conversor de unidades.");
+//        System.out.println("unidades a convertir");
+//        System.out.println("A. C => F");
+//        System.out.println("B. F => C");
+//        System.out.println("C. C => K");
+//        System.out.println("D. K => C");
+//        Scanner consola = new Scanner(System.in);
+//        String op = consola.nextLine();
+//        System.out.println("Temperatura es:");
+//        Scanner consola2 = new Scanner(System.in);
+//        int valTem = consola2.nextInt();
+//        switch (op){
+//            case "A":
+//                System.out.println("la conversion de C a F es: ");
+//                float F;
+//                F=(((valTem*9)/5)+32);
+//                System.out.println(F+" °F");
+//                break;
+//            case "B":
+//                System.out.println("la conversion de F a C es: ");
+//                float C;
+//                C=(((valTem-32)*5)/9);
+//                System.out.println(C+" °C");
+//                break;
+//            case "C":
+//                System.out.println("la conversion de C a K es: ");
+//                float K;
+//                K=valTem+273;
+//                System.out.println(K+" °K");
+//                break;
+//            case "D":
+//                System.out.println("la conversion de K a C es: ");
+//                C=valTem-273;
+//                System.out.println(C+" °C");
+//                break;
+//            default:
+//                System.out.println("opcion equivocada");
+//                break;
+//        }
 
     }
 }
